@@ -7,7 +7,7 @@ const getDataService = () => {
       return response.data;
     })
     .catch(function (error) {
-      throw new Error("Fallo");
+      throw new Error(error);
     });
 };
 
